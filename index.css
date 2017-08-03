@@ -18,20 +18,27 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  width: 800px;
+  width: 100%;
   line-height: 1.5em;
-  margin: 10px 20% 20px 20%;
+  margin: 10px;
 }
 .textTypes {
 display: flex;
-justify-content: space-around;
-align-items: flex-end;
+flex-direction: row;
+/*justify-content: space-between;*/
+margin: 30px;
 }
 
 .colorSelections {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 15px;
+}
+.textSelections {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
 }
 .colorBox {
   width:100px;
@@ -52,8 +59,9 @@ align-items: flex-end;
 .pageImages {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   line-height: 1.5em;
+  margin-left: 30px;
 }
 header {
   background-color: #000;
